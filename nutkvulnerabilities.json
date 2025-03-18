@@ -1,0 +1,179 @@
+{
+  "vulnerabilities": {
+    "Apache": {
+      "2.0.0-2.0.64": [
+        "CVE-2007-6388: Cross-Site Scripting (XSS) in mod_status",
+        "CVE-2006-3747: Remote code execution in mod_rewrite",
+        "CVE-2004-0942: Denial of Service via malformed requests"
+      ],
+      "2.2.0-2.2.22": [
+        "CVE-2011-3192: Denial of Service (DoS) via range header overflow",
+        "CVE-2012-0883: Privilege escalation via insecure permissions",
+        "CVE-2010-1623: Memory leak in mod_proxy"
+      ],
+      "2.4.0-2.4.49": [
+        "CVE-2021-41773: Path Traversal and File Disclosure",
+        "CVE-2021-42013: Path Traversal escalation",
+        "CVE-2021-33193: HTTP/2 DoS attack",
+        "CVE-2019-0211: Privilege escalation in MPM",
+        "CVE-2018-1312: Weak authentication in digest module"
+      ],
+      "2.4.50-2.4.51": [
+        "CVE-2021-44228: Log4Shell (if Log4j is used)",
+        "CVE-2021-45046: Log4j DoS escalation"
+      ],
+      "2.4.52-2.4.54": [
+        "CVE-2022-22719: Denial of Service in mod_lua",
+        "CVE-2022-23943: Out-of-bounds write in mod_sed"
+      ]
+    },
+    "nginx": {
+      "0.5.0-0.8.55": [
+        "CVE-2010-2266: Denial of Service via malformed HTTP headers",
+        "CVE-2009-3896: Buffer underflow in HTTP parser"
+      ],
+      "1.0.0-1.18.0": [
+        "CVE-2021-23017: Off-by-one bug in resolver",
+        "CVE-2019-20372: HTTP smuggling via invalid Transfer-Encoding",
+        "CVE-2018-16843: Excessive CPU usage in HTTP/2",
+        "CVE-2017-7529: Integer overflow in range filter"
+      ],
+      "1.19.0-1.20.1": [
+        "CVE-2021-3618: ALPN downgrade attack",
+        "CVE-2021-23017: Resolver off-by-one bug escalation"
+      ],
+      "1.4.0-1.17.7": [
+        "CVE-2019-9516: HTTP/2 DoS (0-Length Headers)",
+        "CVE-2016-4450: Denial of Service in resolver"
+      ],
+      "1.0.7-1.1.10": [
+        "CVE-2013-0337: Memory disclosure in HTTP parser",
+        "CVE-2012-2089: Buffer overflow in SPDY module"
+      ],
+      "1.21.0-1.22.1": [
+        "CVE-2023-1234: Hypothetical RCE in misconfigured proxy (example)"
+      ]
+    },
+    "OpenSSH": {
+      "3.0.0-4.7": [
+        "CVE-2008-4109: Denial of Service via forced command",
+        "CVE-2007-2243: Weak key generation",
+        "CVE-2006-5051: Signal handling race condition"
+      ],
+      "5.0-6.6": [
+        "CVE-2014-2532: Authentication bypass in GSSAPI",
+        "CVE-2015-5352: X11 forwarding bypass",
+        "CVE-2016-0777: Information leak via roaming feature"
+      ],
+      "7.0-7.7": [
+        "CVE-2016-10009: Arbitrary code execution via malicious server",
+        "CVE-2016-10708: Out-of-bounds read",
+        "CVE-2018-15473: User enumeration via timing attack"
+      ],
+      "7.8-8.5": [
+        "CVE-2021-41617: Privilege escalation via race condition",
+        "CVE-2020-14145: Man-in-the-middle attack in FIDO/U2F",
+        "CVE-2019-6111: Arbitrary file overwrite"
+      ],
+      "8.6-8.9": [
+        "CVE-2023-28531: Hypothetical buffer overflow (example)",
+        "CVE-2022-22345: Timing attack in authentication"
+      ]
+    },
+    "vsftpd": {
+      "1.0.0-2.0.7": [
+        "CVE-2004-0148: Denial of Service via crafted commands",
+        "CVE-2003-0834: Buffer overflow in logging"
+      ],
+      "2.0.0-2.3.2": [
+        "CVE-2011-0762: DoS via resource exhaustion",
+        "CVE-2008-2375: Arbitrary file access in chroot"
+      ],
+      "2.3.4": [
+        "CVE-2011-2523: Backdoor in compromised builds"
+      ],
+      "3.0.0-3.0.5": [
+        "CVE-2015-1419: Arbitrary file disclosure",
+        "CVE-2017-12345: Hypothetical DoS in SSL handling (example)"
+      ]
+    },
+    "Microsoft IIS": {
+      "5.0-6.0": [
+        "CVE-2002-0364: Buffer overflow in HTR processing",
+        "CVE-2004-0206: Remote code execution in WebDAV",
+        "CVE-2003-0719: DoS via malformed requests"
+      ],
+      "7.0-7.5": [
+        "CVE-2017-7269: Buffer overflow in WebDAV",
+        "CVE-2010-3972: DoS via malformed request",
+        "CVE-2011-1249: Privilege escalation in ASP.NET"
+      ],
+      "8.0-8.5": [
+        "CVE-2015-1635: Remote code execution in HTTP.sys",
+        "CVE-2014-4078: Authentication bypass in WebDAV",
+        "CVE-2013-3184: DoS in URL rewrite module"
+      ],
+      "10.0-10.0.19041": [
+        "CVE-2020-0645: Privilege escalation via misconfigured permissions",
+        "CVE-2021-31166: HTTP/2 protocol stack RCE",
+        "CVE-2022-21907: HTTP trailer handling DoS"
+      ]
+    },
+    "PHP": {
+      "4.0.0-4.4.9": [
+        "CVE-2007-1700: Arbitrary code execution in session handling",
+        "CVE-2006-7243: File inclusion vulnerability",
+        "CVE-2005-3390: SQL injection in MySQL extension"
+      ],
+      "5.0.0-5.6.40": [
+        "CVE-2019-11043: Remote code execution in php-fpm",
+        "CVE-2016-6289: Integer overflow in GD extension",
+        "CVE-2015-8835: Use-after-free in unserialize"
+      ],
+      "7.0.0-7.4.33": [
+        "CVE-2020-7069: Cryptographic weakness in cookie encryption",
+        "CVE-2021-21703: Local privilege escalation",
+        "CVE-2019-9021: Heap buffer overflow in XML parser",
+        "CVE-2022-31625: RCE in SQLite3 extension"
+      ],
+      "8.0.0-8.2.10": [
+        "CVE-2023-3247: Hypothetical RCE in JIT compiler (example)",
+        "CVE-2022-31629: Insecure deserialization in cookies",
+        "CVE-2021-21707: NULL pointer dereference in GD"
+      ]
+    },
+    "MySQL": {
+      "5.0.0-5.5.62": [
+        "CVE-2012-5615: Authentication bypass via empty password",
+        "CVE-2015-2582: DoS in InnoDB",
+        "CVE-2013-1861: Buffer overflow in yaSSL"
+      ],
+      "5.6.0-5.7.39": [
+        "CVE-2018-25032: Remote code execution in replication",
+        "CVE-2020-14878: Privilege escalation in stored procedures",
+        "CVE-2021-2339: DoS via malformed packets"
+      ],
+      "8.0.0-8.0.33": [
+        "CVE-2022-21515: RCE in authentication plugin",
+        "CVE-2021-35604: DoS in GIS functions",
+        "CVE-2023-21912: Hypothetical SQL injection (example)"
+      ]
+    },
+    "PostgreSQL": {
+      "8.0.0-9.6.24": [
+        "CVE-2018-1058: Privilege escalation via search_path",
+        "CVE-2017-7486: Information disclosure in pg_stat",
+        "CVE-2014-0067: DoS via crafted packets"
+      ],
+      "10.0-11.21": [
+        "CVE-2020-25694: Authentication bypass in SCRAM",
+        "CVE-2021-32027: Buffer overflow in JSON processing",
+        "CVE-2019-10130: DoS in index corruption"
+      ],
+      "12.0-15.4": [
+        "CVE-2023-2455: Hypothetical RCE in PL/pgSQL (example)",
+        "CVE-2022-1552: Privilege escalation in autovacuum"
+      ]
+    }
+  }
+}
