@@ -1,0 +1,17 @@
+{
+  "OpenSSH": {
+    "2.0.0-4.7": ["CVE-2008-4109: DoS", "CVE-2006-5051: Race condition", "CVE-2001-0529: RCE"],
+    "5.0-6.9": ["CVE-2015-5352: X11 bypass", "CVE-2016-0777: Info leak", "CVE-2014-2532: Auth bypass"],
+    "7.0-8.9": ["CVE-2018-15473: User enumeration", "CVE-2021-41617: Privilege escalation", "CVE-2023-28531: Buffer overflow"],
+    "9.0-9.5": ["CVE-2023-38408: RCE in forwarded agents", "CVE-2023-51385: Shell metacharacter injection"]
+  },
+  "vsftpd": {
+    "1.0.0-2.3.5": ["CVE-2004-0148: DoS", "CVE-2011-2523: Backdoor", "CVE-2008-2375: File access"],
+    "3.0.0-3.0.5": ["CVE-2015-1419: File disclosure", "CVE-2017-15726: DoS in SSL"],
+    "2.0.0-2.0.7": ["CVE-2007-5960: DoS", "CVE-2003-0834: Buffer overflow"]
+  },
+  "ProFTPD": {
+    "1.2.0-1.3.6": ["CVE-2010-3867: RCE in mod_site", "CVE-2006-5815: Buffer overflow"],
+    "1.3.7-1.3.8": ["CVE-2021-46854: RCE in mod_tls", "CVE-2020-9273: Memory corruption"]
+  }
+}
