@@ -1,0 +1,18 @@
+{
+  "PHP": {
+    "4.0.0-4.4.9": ["CVE-2007-1700: Session RCE", "CVE-2006-7243: File inclusion", "CVE-2005-3390: SQL injection"],
+    "5.0.0-5.6.40": ["CVE-2019-11043: php-fpm RCE", "CVE-2016-6289: GD overflow", "CVE-2015-8835: Unserialize UAF"],
+    "7.0.0-7.4.33": ["CVE-2020-7069: Cookie crypto weakness", "CVE-2021-21703: Escalation", "CVE-2022-31625: SQLite RCE"],
+    "8.0.0-8.3.0": ["CVE-2023-3247: JIT RCE", "CVE-2022-31629: Deserialization", "CVE-2021-21707: GD NULL dereference"]
+  },
+  "Node.js": {
+    "0.10.0-12.22.12": ["CVE-2019-15605: HTTP smuggling", "CVE-2020-8174: RCE in napi", "CVE-2018-7160: DoS"],
+    "14.0.0-18.19.0": ["CVE-2022-43548: DNS rebinding", "CVE-2021-44532: Heap overflow", "CVE-2023-30581: RCE in inspector"],
+    "20.0.0-20.11.0": ["CVE-2023-46808: Hypothetical DoS", "CVE-2023-32067: Buffer overflow"]
+  },
+  "Python": {
+    "2.0-2.7.18": ["CVE-2019-9948: URL smuggling", "CVE-2016-1000110: CGI HTTPoxy", "CVE-2013-1752: DoS"],
+    "3.0-3.9.19": ["CVE-2021-3177: Buffer overflow", "CVE-2022-37454: RCE in hashlib", "CVE-2023-24329: URL parsing bypass"],
+    "3.10.0-3.12.1": ["CVE-2023-40217: SSL bypass", "CVE-2023-41105: RCE in tarfile"]
+  }
+}
