@@ -1,0 +1,16 @@
+{
+  "MySQL": {
+    "4.0.0-5.1.73": ["CVE-2009-2446: Auth bypass", "CVE-2012-2122: Privilege escalation", "CVE-2006-1516: DoS"],
+    "5.5.0-5.7.41": ["CVE-2018-25032: RCE in replication", "CVE-2020-14878: Stored procedure escalation", "CVE-2021-2339: DoS"],
+    "8.0.0-8.0.35": ["CVE-2022-21515: Auth plugin RCE", "CVE-2023-21980: Privilege escalation", "CVE-2021-35604: GIS DoS"]
+  },
+  "PostgreSQL": {
+    "7.4-9.6.24": ["CVE-2018-1058: Search_path escalation", "CVE-2014-0067: DoS", "CVE-2010-3781: Buffer overflow"],
+    "10.0-12.18": ["CVE-2020-25694: SCRAM bypass", "CVE-2021-32027: JSON buffer overflow", "CVE-2022-1552: Autovacuum escalation"],
+    "13.0-15.5": ["CVE-2023-2455: PL/pgSQL RCE", "CVE-2023-5869: DoS in array handling"]
+  },
+  "MongoDB": {
+    "2.0.0-3.6.23": ["CVE-2018-20803: DoS in WiredTiger", "CVE-2016-6494: Info leak"],
+    "4.0.0-5.0.22": ["CVE-2021-20326: DoS in aggregation", "CVE-2022-48286: RCE in auth"]
+  }
+}
